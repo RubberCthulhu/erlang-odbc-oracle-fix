@@ -48,13 +48,13 @@ patch -p1 </path/to/patch/file/otp_%VERSION%_odbc-oracle-fix.patch
 make
 ```
 
-* a. If you want to install entire distribution do:
+* If you want to install entire distribution do:
 
 ```
 make install
 ```
 
-* b. If you want only to fix odbc module in existed Erlang OTP installation copy odbcserver executable to sufficient directory in your Erlang OTP:
+* If you want only to fix odbc module in existed Erlang OTP installation copy odbcserver executable to sufficient directory in your Erlang OTP:
 
 ```
 sudo cp ./lib/odbc/priv/bin/odbcserver /erlang/otp/path/lib/odbc/priv/bin/
@@ -62,13 +62,6 @@ sudo cp ./lib/odbc/priv/bin/odbcserver /erlang/otp/path/lib/odbc/priv/bin/
 
 NOTE: check pathes to odbcserver file carefully - they may be different a little in your case.
 
-
-
-
-
-
-
-
-
+Contacts: alevandal@gmail.com.
 
 
