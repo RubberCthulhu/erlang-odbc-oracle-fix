@@ -15,7 +15,7 @@ This fix set autocommit mode after a connection to database has been established
 
 I created two patches for different Erlang OTP distributions:
 * otp_R14B04_odbc-oracle-fix.patch is for versions R14B04, R15B, R15B01 (File odbcserver.c is the same in all of these distributions).
-* otp_R14B04_odbc-oracle-fix.patch is for version R15B02.
+* otp_R15B02_odbc-oracle-fix.patch is for version R15B02.
 
 How to install
 --------------
