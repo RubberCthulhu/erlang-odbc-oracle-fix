@@ -60,7 +60,7 @@ make install
 sudo cp ./lib/odbc/priv/bin/odbcserver /erlang/otp/path/lib/odbc/priv/bin/
 ```
 
-NOTE: check pathes to odbcserver file carefully - they may be different a little in your case.
+NOTE: check pathes to odbcserver file carefully - they may be a little different in your case.
 
 Contacts
 --------
